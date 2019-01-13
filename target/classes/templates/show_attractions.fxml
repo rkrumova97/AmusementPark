@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="610.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.ShowAttractionsController">
+    <children>
+        <TableView fx:id="table" layoutX="226.0" layoutY="250.0" prefHeight="312.0" prefWidth="357.0"/>
+        <Label layoutX="196.0" layoutY="40.0" text="Атракции в определен парк">
+            <font>
+                <Font name="Comic Sans MS" size="31.0"/>
+            </font>
+        </Label>
+        <Label layoutX="137.0" layoutY="119.0" text="Избери парк:"/>
+        <TextField fx:id="park" layoutX="306.0" layoutY="107.0"/>
+        <Button fx:id="fill" layoutX="354.0" layoutY="176.0" mnemonicParsing="false" text="Покажи "/>
+        <Button fx:id="back" layoutX="14.0" layoutY="21.0" mnemonicParsing="false" text="Назад"/>
+    </children>
+</AnchorPane>
