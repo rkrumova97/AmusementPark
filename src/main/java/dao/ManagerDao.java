@@ -19,8 +19,11 @@ public class ManagerDao {
     public static Double promote(Double profit, Double percent, String managerName) {
         Manager manager = DaoUtil.findByName("Manager", managerName);
         double newSalary = 0;
-        if (manager.getPark().getProfit() < profit) {
+        if (manager.getPark().getProfit() > profit) {
             newSalary += manager.getSalary() * (percent/100);
+        }
+        else{
+            newSalary = manager.getSalary();
         }
         updateSalary(manager, newSalary);
         return newSalary;

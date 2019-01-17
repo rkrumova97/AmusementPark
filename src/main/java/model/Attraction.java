@@ -18,7 +18,7 @@ public class Attraction implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column
+    @Column(unique = true)
     private String name;
 
     @Column
@@ -26,7 +26,7 @@ public class Attraction implements Serializable {
 
     @ManyToMany(cascade = { CascadeType.ALL })
     @JoinTable(
-            name = "child_attracion",
+            name = "child_attraction",
             joinColumns = { @JoinColumn(name = "child_id") },
             inverseJoinColumns = { @JoinColumn(name = "attraction_id") }
     )

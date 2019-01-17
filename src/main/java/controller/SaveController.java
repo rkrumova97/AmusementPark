@@ -36,11 +36,9 @@ public class SaveController {
     public TextField price;
     public ComboBox<String> parkManager;
     public MenuButton parkAttractions;
-    public TextField profit;
 
 
     public TextField nameManager;
-    public TextField managerPark;
     public TextField salary;
 
     public Button backChild;
@@ -53,24 +51,31 @@ public class SaveController {
     public Button saveAttraction;
     public Button savePark;
 
+    public Tab parkTab;
+    public Tab childTab;
+
 
     public void initialize() {
-        List<Park> parks = DaoUtil.findAll("Park");
-        List<String> names = parks.stream().map(Park::getName).collect(Collectors.toList());
-        ObservableList<String> list = FXCollections.observableArrayList(names);
-        childParks.getItems().addAll(list);
+        childTab.setOnSelectionChanged(e -> {
+            List<Park> parks = DaoUtil.findAll("Park");
+            List<String> names = parks.stream().map(Park::getName).collect(Collectors.toList());
+            ObservableList<String> list = FXCollections.observableArrayList(names);
+            childParks.getItems().addAll(list);
 
-        List<CheckMenuItem> checkMenuItems = getNames();
-        childAttractions.getItems().addAll(checkMenuItems);
+            List<CheckMenuItem> checkMenuItems = getNames();
+            childAttractions.getItems().addAll(checkMenuItems);
+        });
 
-        List<CheckMenuItem> checkMenuItems1 = getNames();
-        parkAttractions.getItems().addAll(checkMenuItems1);
+        parkTab.setOnSelectionChanged(e -> {
+            List<CheckMenuItem> checkMenuItems1 = getNames();
+            parkAttractions.getItems().addAll(checkMenuItems1);
 
-        //TODO: CHECK AGAIN
-        List<Manager> managers = DaoUtil.findAll("Manager");
-        List<String> namesManagers = managers.stream().map(Manager::getName).collect(Collectors.toList());
-        ObservableList<String> listMan = FXCollections.observableArrayList(namesManagers);
-        parkManager.getItems().addAll(listMan);
+            List<Manager> managers = DaoUtil.findAll("Manager");
+            List<String> namesManagers = managers.stream().map(Manager::getName).collect(Collectors.toList());
+            ObservableList<String> listMan = FXCollections.observableArrayList(namesManagers);
+            parkManager.getItems().addAll(listMan);
+        });
+
 
         saveChild.setOnAction(e -> {
             String name = childName.getText();
@@ -91,7 +96,6 @@ public class SaveController {
         saveManager.setOnAction(e -> {
             String mname = nameManager.getText();
             Double msalary = Double.parseDouble(salary.getText());
-
             ManagerDao.addManager(mname, msalary);
         });
 
@@ -100,8 +104,7 @@ public class SaveController {
             Double tp = Double.parseDouble(price.getText());
             String pm1 = parkManager.getValue();
             final List<String> selectedItems = setComboBox(parkAttractions);
-            Double pprofit = Double.parseDouble(profit.getText());
-            ParkDao.addPark(pname, pm1, tp, selectedItems, pprofit);
+            ParkDao.addPark(pname, pm1, tp, selectedItems);
         });
 
         backButton(backChild);
@@ -127,7 +130,7 @@ public class SaveController {
                 .collect(Collectors.toList());
     }
 
-    protected void backButton(Button backAttraction) {
+    void backButton(Button backAttraction) {
         backAttraction.setOnAction(e -> {
             Node node = (Node) e.getSource();
             Stage stage = (Stage) node.getScene().getWindow();

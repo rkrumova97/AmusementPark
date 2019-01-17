@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ParkDao {
-    public static Park addPark(String name, String manager, Double tp, List<String> attractions, Double profit) {
+    public static Park addPark(String name, String manager, Double tp, List<String> attractions) {
         List<Attraction> attractionList = new ArrayList<>();
         for (String attraction : attractions) {
             attractionList.add(DaoUtil.findByName("Attraction", attraction));
@@ -19,7 +19,6 @@ public class ParkDao {
                 .manager(DaoUtil.findByName("Manager", manager))
                 .ticketPrice(tp)
                 .attractions(attractionList)
-                .profit(profit)
                 .build();
         return DaoUtil.save(park);
     }

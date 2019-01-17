@@ -17,7 +17,7 @@ public class Park {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column
+    @Column(unique = true)
     private String name;
 
     @Column

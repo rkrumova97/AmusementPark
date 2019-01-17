@@ -14,15 +14,14 @@ public class Manager {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column
+    @Column(unique = true)
     private String name;
 
     @Column
     private Double salary;
 
-    @OneToOne
+    @OneToOne(mappedBy = "manager")
     @JoinColumn(name = "park_id")
     private Park park;
-
 
 }

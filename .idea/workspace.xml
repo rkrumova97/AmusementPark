@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd70202a-ce68-4504-8273-d09de79d2953" name="Default Changelist" comment="" />
+    <list default="true" id="cd70202a-ce68-4504-8273-d09de79d2953" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KR2_F89285.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KR2_F89285.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/AverageAgesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/AverageAgesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/SaveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/SaveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ManagerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ManagerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ParkDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ParkDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Attraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Attraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/save.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/save.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/AverageAgesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/AverageAgesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/SaveController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/SaveController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/ManagerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/ManagerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/ParkDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/ParkDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Attraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Attraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/save.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/save.fxml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/GetProfitFromTicketsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="209">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,10 +56,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/StartController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/ParkDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/SaveController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +82,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/PromoteController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="17" selection-start-line="17" selection-end-line="18" />
+            <state relative-caret-position="100">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/ManagerDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Attraction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,6 +130,9 @@
       <find>check</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -90,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/GetProfitFromTickets.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/StartController.java" />
         <option value="$USER_HOME$/Downloads/CSCBF2018Week10.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Manager.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/AttractionDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/get_profit_from_tickets.fxml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -100,21 +155,22 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Child.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/ChildDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/DaoUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/average_ages.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/promote.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/PromoteController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/AverageAgesController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/save.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/save1.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ParkDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ManagerDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/SaveController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/show_attractions.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ShowAttractionsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Attraction.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Park.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/GetProfitFromTicketsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/AverageAgesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/save.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/SaveController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ParkDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ManagerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Attraction.java" />
       </list>
     </option>
   </component>
@@ -147,95 +203,73 @@
     <option name="width" value="1239" />
     <option name="height" value="666" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="KR2_F89285" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KR2_F89285" type="462c0819:PsiDirectoryNode" />
+              <item name="AmusementPark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmusementPark" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="KR2_F89285" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KR2_F89285" type="462c0819:PsiDirectoryNode" />
+              <item name="AmusementPark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmusementPark" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="KR2_F89285" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KR2_F89285" type="462c0819:PsiDirectoryNode" />
+              <item name="AmusementPark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmusementPark" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="KR2_F89285" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KR2_F89285" type="462c0819:PsiDirectoryNode" />
+              <item name="AmusementPark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmusementPark" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="KR2_F89285" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KR2_F89285" type="462c0819:PsiDirectoryNode" />
+              <item name="AmusementPark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmusementPark" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="KR2_F89285" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KR2_F89285" type="462c0819:PsiDirectoryNode" />
+              <item name="AmusementPark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmusementPark" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="KR2_F89285" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KR2_F89285" type="462c0819:PsiDirectoryNode" />
+              <item name="AmusementPark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmusementPark" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="KR2_F89285" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KR2_F89285" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KR2_F89285" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KR2_F89285" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KR2_F89285" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KR2_F89285" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547401444876" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547745880535" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -299,11 +333,15 @@
       <workItem from="1547286521016" duration="6815000" />
       <workItem from="1547301544722" duration="30087000" />
       <workItem from="1547396107475" duration="4035000" />
+      <workItem from="1547402739355" duration="646000" />
+      <workItem from="1547414272462" duration="458000" />
+      <workItem from="1547576589295" duration="20000" />
+      <workItem from="1547743362531" duration="2510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71867000" />
+    <option name="totallyTimeSpent" value="75501000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,11 +353,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Persistence" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.28825912" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19352227" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -331,12 +369,12 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.14031972" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.38010657" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.23268206" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.3285968" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -362,7 +400,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dao/ManagerDao.java</url>
-          <line>35</line>
+          <line>38</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -383,14 +421,6 @@
           <line>28</line>
           <properties />
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/SaveController.java</url>
-          <line>56</line>
-          <properties class="controller.SaveController" method="initialize">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -518,12 +548,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/start.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -539,16 +569,6 @@
           <folding>
             <element signature="e#10057#10058#0" expanded="true" />
             <element signature="e#10103#10104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -577,26 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/TicketDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ChildDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -615,30 +615,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/promote.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AverageAgesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/average_ages.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/Serializable.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -651,51 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="77" column="14" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ManagerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ParkDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/DaoUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/save.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -713,63 +658,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SaveController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="71" selection-start-line="71" selection-end-line="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/show_attractions.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Child.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Attraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Park.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/get_profit_from_tickets.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/ShowAttractionsController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -782,20 +685,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PromoteController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/StartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="17" selection-start-line="17" selection-end-line="18" />
+        <state relative-caret-position="867">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/StartController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ChildDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/DaoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Child.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AverageAgesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/TicketDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/SaveController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -804,8 +767,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/GetProfitFromTicketsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="209">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ParkDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/PromoteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/save.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Park.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ManagerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Attraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

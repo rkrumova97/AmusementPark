@@ -3,7 +3,6 @@ package controller;
 import dao.ParkDao;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.scene.Group;
 import javafx.scene.chart.PieChart;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
@@ -31,19 +30,6 @@ public class AverageAgesController {
     public void initialize() {
         pieChart.setTitle("Average ages in the parks:");
         pieChart.setData(createPie());
-
-        //setting the direction to arrange the data
-        pieChart.setClockwise(true);
-
-        //Setting the length of the label line
-        pieChart.setLabelLineLength(50);
-
-        //Setting the labels of the pie chart visible
-        pieChart.setLabelsVisible(true);
-
-        //Setting the start angle of the pie chart
-        pieChart.setStartAngle(180);
-        Group root = new Group(pieChart);
 
 
         avg.insertText(0, ParkDao.getAvgAgeForAllParks().toString());
